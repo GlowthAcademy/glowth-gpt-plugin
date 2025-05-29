@@ -12,9 +12,9 @@
     }
   },
   "api": {
-    "type": "openapi",
-    "url": "https://glowthacademy.github.io/glowth-gpt-plugin/.well-known/openapi.yaml"
-  },
+  "type": "openapi",
+  "url": "https://glowthacademy.github.io/glowth-gpt-plugin/.well-known/openapi.json"
+},
   "logo_url": "https://glowth.io/logo.png",
   "contact_email": "hello@glowth.io",
   "legal_info_url": "https://glowth.io/legal"
