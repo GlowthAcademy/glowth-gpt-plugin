@@ -4,7 +4,8 @@ info:
   description: Send weekly project updates from GPT to Glowth's automation system via webhook.
   version: 1.0.0
 servers:
-  - url: https://eo3hsa246cnwc22.m.pipedream.net
+  - url: https://glowthacademy.github.io/glowth-gpt-plugin
+
 paths:
   /:
     post:
