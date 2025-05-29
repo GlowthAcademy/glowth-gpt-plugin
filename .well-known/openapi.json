@@ -7,7 +7,7 @@
   },
   "servers": [
     {
-      "url": "https://glowthacademy.github.io/glowth-gpt-plugin"
+      "url": "https://glowthacademy.github.io"
     }
   ],
   "paths": {
