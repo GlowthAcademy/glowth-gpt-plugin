@@ -1,0 +1,21 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "glowth_checkin_logger",
+  "name_for_human": "Glowth Check-In Logger",
+  "description_for_model": "Send weekly project update data to Glowth’s automation webhook.",
+  "description_for_human": "Send project check-ins to the Glowth system via webhook.",
+  "auth": {
+    "type": "api_key",
+    "authorization_type": "header",
+    "verification_tokens": {
+      "openai": "glowth-secret-key-9584"
+    }
+  },
+ "api": {
+  "type": "openapi",
+  "url": "https://glowthacademy.github.io/glowth-gpt-plugin/openapi.json"
+},
+  "logo_url": "https://glowth.io/logo.png",
+  "contact_email": "hello@glowth.io",
+  "legal_info_url": "https://glowth.io/legal"
+}
