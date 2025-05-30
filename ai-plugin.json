@@ -11,11 +11,11 @@
       "openai": "glowth-secret-key-9584"
     }
   },
- "api": {
-  "type": "openapi",
-  "url": "https://glowthacademy.github.io/glowth-gpt-plugin/openapi.json"
-},
-  "logo_url": "https://glowth.io/logo.png",
+  "api": {
+    "type": "openapi",
+    "url": "https://pmgpts.netlify.app/openapi.json"
+  },
+  "logo_url": "https://pmgpts.netlify.app/logo.png",
   "contact_email": "hello@glowth.io",
   "legal_info_url": "https://glowth.io/legal"
 }
