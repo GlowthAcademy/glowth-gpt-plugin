@@ -1,6 +1,14 @@
+[build]
+  publish = "."
+
+[[redirects]]
+  from = "/.well-known/ai-plugin.json"
+  to = "/well-known/ai-plugin.json"
+  status = 200
+  force = true
+
 [[headers]]
-  for = "/*"
+  for = "/.well-known/ai-plugin.json"
   [headers.values]
-  Access-Control-Allow-Origin = "*"
-  Content-Type = "application/json"
-  X-Robots-Tag = "none"
+    Access-Control-Allow-Origin = "*"
+    Content-Type = "application/json"
