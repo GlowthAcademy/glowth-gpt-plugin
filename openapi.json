@@ -5,10 +5,12 @@
     "description": "Send weekly project updates from GPT to Glowth's automation system via webhook.",
     "version": "1.0.0"
   },
-  "servers": [{
-      "url": "https://https://pmgpts.netlify.app"
+  "servers": [
+  {
+    "url": "https://pmgpts.netlify.app",
     "description": "Netlify production server"
-}]
+  }
+]
   "paths": {
     "/": {
       "post": {
