@@ -6,11 +6,11 @@
     "version": "1.0.0"
   },
   "servers": [
-  {
-    "url": "https://pmgpts.netlify.app",
-    "description": "Netlify production server"
-  }
-]
+    {
+      "url": "https://pmgpts.netlify.app",
+      "description": "Netlify production server"
+    }
+  ],
   "paths": {
     "/": {
       "post": {
